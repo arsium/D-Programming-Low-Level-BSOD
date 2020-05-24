@@ -1,0 +1,157 @@
+[
+ {
+  "name" : "D_Lang_LowLevelBSOD",
+  "kind" : "module",
+  "file" : "D_Lang_LowLevelBSOD.d",
+  "members" : [
+   {
+    "name" : "core.sys.windows.windows",
+    "kind" : "import",
+    "line" : 3,
+    "char" : 8,
+    "protection" : "private"
+   },
+   {
+    "name" : "MainFunc",
+    "kind" : "alias",
+    "line" : 5,
+    "char" : 45,
+    "deco" : "PUAAyaZi"
+   },
+   {
+    "name" : "_d_run_main",
+    "kind" : "function",
+    "line" : 6,
+    "char" : 16,
+    "linkage" : "c",
+    "deco" : "UiPPaPUAAyaZiZi",
+    "originalType" : "extern (C) int(int argc, char** argv, MainFunc mainFunc)",
+    "parameters" : [
+     {
+      "name" : "argc",
+      "deco" : "i"
+     },
+     {
+      "name" : "argv",
+      "deco" : "PPa"
+     },
+     {
+      "name" : "mainFunc",
+      "deco" : "PUAAyaZi"
+     }
+    ]
+   },
+   {
+    "name" : "WinMain",
+    "kind" : "function",
+    "line" : 9,
+    "char" : 5,
+    "linkage" : "windows",
+    "deco" : "WPvQcPaiZi",
+    "originalType" : "extern (Windows) int(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)",
+    "parameters" : [
+     {
+      "name" : "hInstance",
+      "deco" : "Pv"
+     },
+     {
+      "name" : "hPrevInstance",
+      "deco" : "Pv"
+     },
+     {
+      "name" : "lpCmdLine",
+      "deco" : "Pa"
+     },
+     {
+      "name" : "nCmdShow",
+      "deco" : "i"
+     }
+    ],
+    "endline" : 12,
+    "endchar" : 1
+   },
+   {
+    "name" : "main",
+    "kind" : "function",
+    "line" : 14,
+    "char" : 15,
+    "linkage" : "c",
+    "deco" : "UAAyaZi",
+    "parameters" : [
+     {
+      "name" : "args",
+      "deco" : "AAya"
+     }
+    ],
+    "endline" : 26,
+    "endchar" : 1
+   },
+   {
+    "name" : "RtlAdjustPrivilege",
+    "kind" : "function",
+    "line" : 27,
+    "char" : 21,
+    "linkage" : "windows",
+    "deco" : "WibbJbZi",
+    "parameters" : [
+     {
+      "name" : "Priv_To_Enable",
+      "deco" : "i"
+     },
+     {
+      "name" : "Enable",
+      "deco" : "b"
+     },
+     {
+      "name" : "WasEnable",
+      "deco" : "b"
+     },
+     {
+      "name" : "response",
+      "deco" : "b",
+      "storageClass" : [
+       "out"
+      ]
+     }
+    ]
+   },
+   {
+    "name" : "NtRaiseHardError",
+    "kind" : "function",
+    "line" : 28,
+    "char" : 21,
+    "linkage" : "windows",
+    "deco" : "WiiiiiJkZi",
+    "parameters" : [
+     {
+      "name" : "ErrorCode",
+      "deco" : "i"
+     },
+     {
+      "name" : "n",
+      "deco" : "i"
+     },
+     {
+      "name" : "j",
+      "deco" : "i"
+     },
+     {
+      "name" : "k",
+      "deco" : "i"
+     },
+     {
+      "name" : "m",
+      "deco" : "i"
+     },
+     {
+      "name" : "response",
+      "deco" : "k",
+      "storageClass" : [
+       "out"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
